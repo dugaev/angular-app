@@ -1,0 +1,172 @@
+{
+  "editor.tabSize": 2,
+  "editor.wordWrap": "bounded",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 80,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.folding": false,
+  "editor.insertSpaces": false,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": true,
+  "editor.suggestSelection": "first",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "window.zoomLevel": 0.5,
+  "symbols.hidesExplorerArrows": false,
+  "html.completion.attributeDefaultValue": "singlequotes",
+
+  // Appearance
+
+  "editor.bracketPairColorization.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.productIconTheme": "fluent-icons",
+  "window.density.editorTabHeight": "compact",
+  "workbench.activityBar.location": "top",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  // Cursor
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+
+  // Font
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace, Iosevka NFM, JetBrains Mono, Monaspace Neon, Maple Mono, MonoLisa, Ubuntu Mono, Operator Mono lig, DejaVu Sans Mono, Fira Code, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono",
+  "editor.inlayHints.fontFamily": "Pragmata Pro",
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "entity.name.type.class",
+          "keyword",
+          "constant",
+          "storage.modifier",
+          "storage.type.class.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  // Terminal
+  "terminal.integrated.fontFamily": "Iosevka NFM",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.tabs.enabled": false,
+
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Emmet
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // Format
+  "prettier.semi": false,
+  "prettier.useTabs": true,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  // "[prisma]": {
+  //     "editor.defaultFormatter": "Prisma.prisma"
+  // }
+  "prettier.arrowParens": "avoid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+
+  // Breadcrumbs
+  "breadcrumbs.icons": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showMethods": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showFunctions": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showConstructors": false,
+
+  // JS & TS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+  // SpellChecker
+  "cSpell.language": "en,ua,ru",
+  "cSpell.userWords": [],
+  "cSpell.enabled": true,
+  "cSpell.enableFiletypes": [
+    "blade",
+    "jsx",
+    "tsx",
+    "js",
+    "ts",
+    "scss",
+    "sass",
+    "vue"
+  ],
+
+  "editor.unicodeHighlight.allowedCharacters": {
+    "а": true,
+    "с": true,
+    "Т": true,
+    "б": true,
+    "е": true
+  },
+  "editor.hideCursorInOverviewRuler": true,
+  "git.enableSmartCommit": true,
+  "files.exclude": {
+    "**/.expo": true,
+    "**/.expo-shared": true,
+    "**/.idea": true,
+    "**/.next": true,
+    "**/.nuxt": true,
+    "**/dist": true
+  },
+
+  // Other
+  "files.defaultLanguage": "plaintext",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "workbench.editor.empty.hint": "hidden"
+}
